@@ -1,0 +1,45 @@
+.header {
+  background: #000;
+  max-width: 1400px;
+  margin: auto;
+  padding: 17px 68px;
+  .header-box {
+    display: flex;
+    position: relative;
+    .header-img {
+        position: absolute;
+        left: 0;
+        background-color: $main-color;
+        padding: 43px 68px;
+        top: -17px;
+    }
+    .architecture {
+      line-height: 170%;
+      color: rgba(255, 255, 255, 0.75);
+    //   margin-top: 26px;
+      margin-right: 3px;
+      margin-left: 325px;
+    }
+    .made-with {
+      line-height: 153%;
+      color: #fff;
+    //   margin-top: 25px;
+    }
+
+    .nav-list {
+      display: flex;
+      padding-left: 205px;
+    //   margin-top: 18px;
+      .nav__list-item {
+        margin-right: 37px;
+      }
+      .nav__item-link {
+        font-size: 11px;
+        line-height: 309%;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }
+  }
+}
