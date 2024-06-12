@@ -12,13 +12,25 @@
         <p class="header-text">Architure</p>
         <p class="header-text">Made With</p>
         <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav__list-item"><a href="" class="nav__item-link">Home</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">About</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">Services</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">Projects</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">News</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">Contact</a></li>
+          <ul class="nav-list list">
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">Home</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">Services</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">News</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -34,7 +46,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
               vehicula, libero vel egestas fringilla.
             </p>
-            <ul class="hero-list">
+            <ul class="hero-list list">
               <li class="hero__list-item">
                 <button type="button" class="hero__list-btn">explore</button>
               </li>
@@ -44,7 +56,7 @@
             </ul>
           </div>
           <div class="social-media">
-            <ul class="social-media-list">
+            <ul class="social-media-list list">
               <li class="hero__sm-item">
                 <a href="#" target="_blank" class="hero__sm-link">facebook</a>
               </li>
@@ -96,59 +108,73 @@
 
       <section class="statistic">
         <div class="container">
-          <p class="static-info">
-            500k <span class="static-subtitle">projects</span>
-          </p>
-          <p class="static-info">
-            575k <span class="static-subtitle">sketches</span>
-          </p>
-          <p class="static-info">
-            250k <span class="static-subtitle">clients</span>
-          </p>
-          <p class="static-info">
-            365k <span class="static-subtitle">likes</span>
-          </p>
-          <p class="static-info">
-            500k <span class="static-subtitle">awards</span>
-          </p>
+          <ul class="static-list list">
+            <li class="static__list-item">
+              <p class="static-info">
+                500k <span class="static-subtitle">projects</span>
+              </p>
+            </li>
+            <li class="static__list-item">
+              <p class="static-info">
+                575k <span class="static-subtitle">sketches</span>
+              </p>
+            </li>
+            <li class="static__list-item">
+              <p class="static-info">
+                250k <span class="static-subtitle">clients</span>
+              </p>
+            </li>
+            <li class="static__list-item">
+              <p class="static-info">
+                365k <span class="static-subtitle">likes</span>
+              </p>
+            </li>
+            <li class="static__list-item">
+              <p class="static-info">
+                500k <span class="static-subtitle">awards</span>
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="projects">
-        <ul class="projects-list">
-          <li class="projects__list-item">
-            <p class="projects__list-data">New</p>
-            <img
-              src="./images/liv-room.jpg"
-              alt="living room"
-              class="projects__list-img"
-            />
-            <h3 class="projects__list-title">Interior Design</h3>
-            <p class="projects__list-name">House Living Room</p>
-          </li>
+        <div class="container">
+          <ul class="projects-list list">
+            <li class="projects__list-item">
+              <p class="projects__list-data">New</p>
+              <img
+                src="./images/liv-room.jpg"
+                alt="living room"
+                class="projects__list-img"
+              />
+              <h3 class="projects__list-title">Interior Design</h3>
+              <p class="projects__list-name">House Living Room</p>
+            </li>
 
-          <li class="projects__list-item">
-            <p class="projects__list-data">New</p>
-            <img
-              src="./images/view-house.jpg"
-              alt=""
-              class="projects__list-img"
-            />
-            <h3 class="projects__list-title">Architure</h3>
-            <p class="projects__list-name">Ocean View House</p>
-          </li>
+            <li class="projects__list-item">
+              <p class="projects__list-data">New</p>
+              <img
+                src="./images/view-house.jpg"
+                alt=""
+                class="projects__list-img"
+              />
+              <h3 class="projects__list-title">Architure</h3>
+              <p class="projects__list-name">Ocean View House</p>
+            </li>
 
-          <li class="projects__list-item">
-            <p class="projects__list-data">New</p>
-            <img
-              src="./images/dining-area.jpg"
-              alt=""
-              class="projects__list-img"
-            />
-            <h3 class="projects__list-title">Interior Design</h3>
-            <p class="projects__list-name">House Dininig Area</p>
-          </li>
-        </ul>
+            <li class="projects__list-item">
+              <p class="projects__list-data">New</p>
+              <img
+                src="./images/dining-area.jpg"
+                alt=""
+                class="projects__list-img"
+              />
+              <h3 class="projects__list-title">Interior Design</h3>
+              <p class="projects__list-name">House Dininig Area</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="services">
@@ -157,7 +183,7 @@
           <h2 class="services-title">
             Architecture is not simply a service, it is also an inspiration
           </h2>
-          <ul class="services-list">
+          <ul class="services-list list">
             <li class="services__list-item">
               <p class="services__list-numver">01/06</p>
               <h3 class="services__list-title">Architecture</h3>
@@ -218,7 +244,7 @@
 
       <section class="partners">
         <div class="container">
-          <ul class="partners-list">
+          <ul class="partners-list list">
             <li class="partners__list-item">
               <img
                 src="./images/artzo.png"
@@ -226,7 +252,7 @@
                 class="partner__list-img"
               />
             </li>
-  
+
             <li class="partners__list-item">
               <img
                 src="./images/antartica.png"
@@ -234,7 +260,7 @@
                 class="partners__list-img"
               />
             </li>
-  
+
             <li class="partners__list-item">
               <img
                 src="./images/captain.png"
@@ -242,7 +268,7 @@
                 class="partners__list-img"
               />
             </li>
-  
+
             <li class="partners__list-item">
               <img
                 src="./images/cupcakes.png"
@@ -250,7 +276,7 @@
                 class="partners__list-img"
               />
             </li>
-  
+
             <li class="partners__list-item">
               <img
                 src="./images/choc.png"
@@ -266,25 +292,51 @@
     <footer class="footer">
       <div class="container">
         <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav__list-item"><a href="" class="nav__item-link">Home</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">About</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">Services</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">Projects</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">News</a></li>
-            <li class="nav__list-item"><a href="" class="nav__item-link">Contact</a></li>
+          <ul class="nav-list list">
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">Home</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">Services</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">News</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__item-link">Contact</a>
+            </li>
           </ul>
         </nav>
+
         <form class="footer-form">
-          <input type="text" class="footer-input" placeholder="newsletter(emter email)">
+          <input
+            type="text"
+            class="footer-input"
+            placeholder="newsletter(emter email)"
+          />
           <button type="button" class="footer-btn">Subscribe</button>
         </form>
-        <ul class="footer-list">
-          <li class="footer__list-item"><a href="#" class="footer__list-item">Licensing</a></li>
-          <li class="footer__list-item"><a href="#" class="footer__list-item">stylesing</a></li>
-          <li class="footer__list-item"><a href="#" class="footer__list-item">changelog</a></li>
+
+        <ul class="footer-list list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-item">Licensing</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-item">stylesing</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-item">changelog</a>
+          </li>
         </ul>
-        <p class="footer-powered">powered by <a href="#" class="webflow">webflow.com</a></p>
+        <p class="footer-powered">
+          powered by <a href="#" class="webflow">webflow.com</a>
+        </p>
       </div>
     </footer>
   </body>
