@@ -32,8 +32,12 @@ img {
   padding: 0;
 }
 
-.link {
+a {
   text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
