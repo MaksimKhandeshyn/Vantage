@@ -1,5 +1,5 @@
 .header {
-  background: #000;
+  background: $black-color;
   max-width: 1400px;
   margin: auto;
   padding: 17px 68px;
@@ -8,28 +8,32 @@
     position: relative;
     .header-img {
         position: absolute;
-        left: 0;
+        left: -5px;
         background-color: $main-color;
         padding: 43px 68px;
         top: -17px;
+        z-index: 1;
+    }
+    .header-text {
+      display: flex;
+      align-items: center;
     }
     .architecture {
       line-height: 170%;
       color: rgba(255, 255, 255, 0.75);
-    //   margin-top: 26px;
       margin-right: 3px;
       margin-left: 325px;
+      font-size: 9px;
     }
     .made-with {
       line-height: 153%;
       color: #fff;
-    //   margin-top: 25px;
+      font-size: 10px;
     }
 
     .nav-list {
       display: flex;
       padding-left: 205px;
-    //   margin-top: 18px;
       .nav__list-item {
         margin-right: 37px;
       }
