@@ -59,7 +59,6 @@
     }
   }
   .social-media {
-    
     width: 815px;
     .social-media-list {
       display: flex;
@@ -89,6 +88,50 @@
     width: 489px;
     height: 329px;
     background-color: $main-color;
-    
+  }
+}
+
+.our-job {
+  padding: 135px 68px;
+  .our-job-box {
+    display: flex;
+    .our-job-subtitle {
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 151%;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: $main-color;
+    }
+    .our-job-title {
+      font-family: $second-family;
+      font-weight: 400;
+      font-size: 53px;
+      line-height: 100%;
+      text-transform: capitalize;
+      color: #141414;
+      width: 655px;
+    }
+    .our-job-info {
+      width: 683px;
+      font-size: 17px;
+      line-height: 150%;
+      color: #141414;
+    }
+    .our-job-continue {
+      font-size: 17px;
+      line-height: 150%;
+      color: #141414;
+      width: 684px;
+      margin-top: 16px;
+    }
+    .news-data {
+        margin-bottom: 11px;
+    }
+    .news {
+      width: 323px;
+      font-size: 26px;
+      margin-top: 10px;
+    }
   }
 }

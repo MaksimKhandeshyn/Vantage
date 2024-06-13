@@ -185,4 +185,49 @@ body {
   width: 489px;
   height: 329px;
   background-color: #99823D;
+}
+
+.our-job {
+  padding: 135px 68px;
+}
+.our-job .our-job-box {
+  display: flex;
+}
+.our-job .our-job-box .our-job-subtitle {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 151%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #99823D;
+}
+.our-job .our-job-box .our-job-title {
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #141414;
+  width: 655px;
+}
+.our-job .our-job-box .our-job-info {
+  width: 683px;
+  font-size: 17px;
+  line-height: 150%;
+  color: #141414;
+}
+.our-job .our-job-box .our-job-continue {
+  font-size: 17px;
+  line-height: 150%;
+  color: #141414;
+  width: 684px;
+  margin-top: 16px;
+}
+.our-job .our-job-box .news-data {
+  margin-bottom: 11px;
+}
+.our-job .our-job-box .news {
+  width: 323px;
+  font-size: 26px;
+  margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */
