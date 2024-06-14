@@ -1,0 +1,18 @@
+.footer-form {
+  background-color: $main-color;
+  width: 1168px;
+  padding: 68px 68px;
+  .footer-input {
+    width: 1032px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 309%;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    border: none;
+    padding-top: 17px;
+    padding-bottom:  17px;
+    padding-left: 25px;
+  }
+}
