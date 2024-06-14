@@ -264,4 +264,145 @@ body {
   letter-spacing: 0.25em;
   text-transform: uppercase;
   color: #99823D;
+}
+
+.projects {
+  padding-bottom: 62px;
+}
+.projects .projects-list {
+  display: flex;
+}
+.projects .projects-list .projects__list-item {
+  position: relative;
+  margin-right: 34px;
+}
+.projects .projects-list .projects__list-item .projects__list-box {
+  position: absolute;
+  top: 0;
+  width: 103px;
+  height: 34px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects .projects-list .projects__list-item .projects__list-box .projects__list-data {
+  font-size: 11px;
+  line-height: 148%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.projects .projects-list .projects__list-item .projects__list-img {
+  display: inline-block;
+  width: 412px;
+  height: 275px;
+}
+.projects .projects-list .projects__list-item .projects__list-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 206px;
+  height: 102px;
+  text-align: center;
+  background-color: #99823D;
+  color: #fff;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 309%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+.projects .projects-list .projects__list-item .projects__list-name {
+  position: absolute;
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 378px;
+  height: 68px;
+  background: #000;
+  color: #fff;
+  text-transform: capitalize;
+  bottom: 0;
+}
+
+.services {
+  padding-bottom: 107px;
+}
+.services .services-subtitle {
+  font-size: 11px;
+  line-height: 151%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #99823D;
+}
+.services .services-title {
+  font-family: "Teko", sans-serif;
+  width: 801px;
+  font-size: 53px;
+  line-height: 100%;
+  text-transform: capitalize;
+  text-align: center;
+  color: #141414;
+  margin: auto;
+}
+.services .services-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services .services-list .services__list-item {
+  flex-basis: calc(33.3333333333% - 66px);
+  padding: 37px 34px 31px 65px;
+}
+.services .services-list .services__list-item .services__list-number {
+  font-size: 11px;
+  line-height: 151%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #99823D;
+}
+.services .services-list .services__list-item .services__list-title {
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #141414;
+  margin-top: 11px;
+}
+.services .services-list .services__list-item .services__list-info {
+  font-size: 17px;
+  line-height: 150%;
+  color: #141414;
+  width: 292px;
+  margin-top: 17px;
+}
+.services .services-btn {
+  width: 392px;
+  padding: 25px 118px;
+  border: none;
+  background-color: #99823D;
+  color: #fff;
+  font-size: 12px;
+  line-height: 149%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin-left: 460px;
+  margin-top: 122px;
+}
+
+.partners {
+  background: #EBEBEB;
+  padding: 68px 68px;
+}
+.partners .partners-list {
+  display: flex;
+}
+.partners .partners-list .partners__list-item {
+  margin-right: 114px;
 }/*# sourceMappingURL=main.css.map */
