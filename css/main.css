@@ -80,18 +80,44 @@ body {
 .footer {
   padding-top: 66px;
   padding-bottom: 16px;
+  background-color: #9a9999;
+  position: relative;
+}
+.footer .nav-box {
+  position: absolute;
+  display: none;
+  top: 0px;
+  width: 1304px;
+  height: 272px;
+  padding-top: 68px;
+  padding-left: 68px;
+  margin-top: 68px;
   background-color: #3d3d3d;
 }
-.footer .footer-img {
+.footer .nav-box .nav-box__img {
   width: 131px;
   height: 34px;
   margin-bottom: -32px;
+}
+.footer .nav-box .nav-list {
+  margin-left: 677px;
+  padding-left: 0;
+}
+.footer .form {
+  width: 1440px;
+  height: 239px;
+  background: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-form {
   background-color: #99823D;
   width: 1168px;
+  height: 204px;
   padding: 68px 68px;
+  z-index: 1;
 }
 .footer-form .footer-input {
   width: 1032px;
@@ -142,16 +168,16 @@ body {
   font-size: 10px;
 }
 
-.partners .nav-list,
+.footer .nav-list,
 .header .nav-list {
   display: flex;
   padding-left: 205px;
 }
-.partners .nav-list .nav__list-item,
+.footer .nav-list .nav__list-item,
 .header .nav-list .nav__list-item {
   margin-right: 37px;
 }
-.partners .nav-list .nav__item-link,
+.footer .nav-list .nav__item-link,
 .header .nav-list .nav__item-link {
   font-size: 11px;
   line-height: 309%;
@@ -434,17 +460,12 @@ body {
 }
 
 .partners {
-  background: #9A9999;
-  padding: 68px 68px;
+  background: #9a9999;
+  padding: 71px 68px;
 }
 .partners .partners-list {
   display: flex;
 }
 .partners .partners-list .partners__list-item {
   margin-right: 114px;
-}
-.partners .nav-list {
-  background-color: #3d3d3d;
-  margin-left: 677px;
-  padding-left: 0;
 }/*# sourceMappingURL=main.css.map */
