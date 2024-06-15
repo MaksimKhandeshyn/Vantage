@@ -274,13 +274,36 @@
 }
 
 .partners {
+  position: relative;
+  width: max-content;
+  margin: auto;
   background: #9a9999;
-  padding: 71px 68px;
+  padding-top: 68px;
+  padding-bottom: 71px;
+
   .partners-list {
     display: flex;
+    padding-left: 136px;
     .partners__list-item {
       margin-right: 114px;
     }
   }
-  
+  .nav-box {
+    position: absolute;
+    top: 72px;
+    width: 1304px;
+    padding-top: 68px;
+    padding-left: 68px;
+    margin-top: 68px;
+    background-color: #3d3d3d;
+    .nav-box__img {
+      width: 131px;
+      height: 34px;
+      margin-bottom: -32px;
+    }
+    .nav-list {
+      margin-left: 677px;
+      padding-left: 0;
+    }
+  }
 }

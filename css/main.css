@@ -78,38 +78,18 @@ body {
 }
 
 .footer {
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
   padding-top: 66px;
   padding-bottom: 16px;
   background-color: #9a9999;
-  position: relative;
-}
-.footer .nav-box {
-  position: absolute;
-  display: none;
-  top: 0px;
-  width: 1304px;
-  height: 272px;
-  padding-top: 68px;
-  padding-left: 68px;
-  margin-top: 68px;
-  background-color: #3d3d3d;
-}
-.footer .nav-box .nav-box__img {
-  width: 131px;
-  height: 34px;
-  margin-bottom: -32px;
-}
-.footer .nav-box .nav-list {
-  margin-left: 677px;
-  padding-left: 0;
 }
 .footer .form {
+  position: relative;
   width: 1440px;
   height: 239px;
   background: #141414;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-form {
@@ -117,7 +97,7 @@ body {
   width: 1168px;
   height: 204px;
   padding: 68px 68px;
-  z-index: 1;
+  margin: auto;
 }
 .footer-form .footer-input {
   width: 1032px;
@@ -168,16 +148,16 @@ body {
   font-size: 10px;
 }
 
-.footer .nav-list,
+.partners .nav-list,
 .header .nav-list {
   display: flex;
   padding-left: 205px;
 }
-.footer .nav-list .nav__list-item,
+.partners .nav-list .nav__list-item,
 .header .nav-list .nav__list-item {
   margin-right: 37px;
 }
-.footer .nav-list .nav__item-link,
+.partners .nav-list .nav__item-link,
 .header .nav-list .nav__item-link {
   font-size: 11px;
   line-height: 309%;
@@ -460,12 +440,36 @@ body {
 }
 
 .partners {
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
   background: #9a9999;
-  padding: 71px 68px;
+  padding-top: 68px;
+  padding-bottom: 71px;
 }
 .partners .partners-list {
   display: flex;
+  padding-left: 136px;
 }
 .partners .partners-list .partners__list-item {
   margin-right: 114px;
+}
+.partners .nav-box {
+  position: absolute;
+  top: 72px;
+  width: 1304px;
+  padding-top: 68px;
+  padding-left: 68px;
+  margin-top: 68px;
+  background-color: #3d3d3d;
+}
+.partners .nav-box .nav-box__img {
+  width: 131px;
+  height: 34px;
+  margin-bottom: -32px;
+}
+.partners .nav-box .nav-list {
+  margin-left: 677px;
+  padding-left: 0;
 }/*# sourceMappingURL=main.css.map */
