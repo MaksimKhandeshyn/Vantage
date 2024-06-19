@@ -1,4 +1,3 @@
-.partners,
 .header {
   .nav-list {
     display: flex;
@@ -7,6 +6,35 @@
       margin-right: 37px;
     }
     .nav__item-link {
+      font-size: 11px;
+      line-height: 309%;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+}
+.footer-nav {
+  display: flex;
+  align-items: baseline;
+  padding-top: 68px;
+  padding-left: 68px;
+  margin-top: 68px;
+  margin-left: 34px;
+  width: 1206px;
+  height: 272px;
+  background-color: #3d3d3d;
+  .nav-box__img {
+    width: 131px;
+    height: 34px;
+  }
+  .partners-nav-list {
+    display: flex;
+    margin-left: 481px;
+    .partners__nav-item {
+      margin-right: 30px;
+    }
+    .partners__nav-link {
       font-size: 11px;
       line-height: 309%;
       letter-spacing: 0.25em;
