@@ -274,12 +274,11 @@
 }
 
 .partners {
-  position: relative;
   width: max-content;
   margin: auto;
   background: #9a9999;
   padding-top: 68px;
-  padding-bottom: 71px;
+  padding-bottom: 137px;
   
   .partners-list {
     display: flex;
@@ -288,18 +287,4 @@
       margin-right: 114px;
     }
   }
-  // .footer-nav {
-  //   padding-top: 68px;
-  //   padding-left: 68px;
-  //   margin-top: 68px;
-  //   background-color: #3d3d3d;
-  //   .nav-box__img {
-  //     width: 131px;
-  //     height: 34px;
-  //   }
-  //   .nav-list {
-  //     margin-left: 677px;
-  //     padding-left: 0;
-  //   }
-  // }
 }

@@ -74,6 +74,19 @@ body {
   margin-top: 122px;
 }
 
+.footer-btn {
+  width: 155px;
+  height: 68px;
+  border: none;
+  background: #141414;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 17px;
+}
+
 .container {
   width: 1304px;
   padding: 0 15px;
@@ -81,6 +94,8 @@ body {
 }
 
 .footer {
+  position: relative;
+  z-index: 3;
   width: -moz-max-content;
   width: max-content;
   margin: auto;
@@ -88,11 +103,39 @@ body {
   padding-bottom: 16px;
   background: #141414;
 }
-.footer .form {
-  background: #141414;
+.footer .footer-block {
+  display: flex;
+}
+.footer .footer-block .footer-list {
+  display: flex;
+  margin-left: 68px;
+  margin-right: 638px;
+}
+.footer .footer-block .footer-list .footer__list-item:not(:last-child) {
+  margin-right: 36px;
+}
+.footer .footer-block .footer-list .footer__list-link {
+  font-size: 11px;
+  line-height: 309%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer .footer-block .footer-powered, .footer .footer-block .webflow {
+  font-size: 11px;
+  line-height: 309%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+}
+.footer .footer-block .footer-powered .webflow, .footer .footer-block .webflow .webflow {
+  color: #fff;
 }
 
 .footer-form {
+  position: relative;
+  top: -66px;
+  z-index: 2;
   background-color: #99823D;
   width: 1168px;
   height: 204px;
@@ -100,7 +143,7 @@ body {
   margin: auto;
 }
 .footer-form .footer-input {
-  width: 1032px;
+  width: 855px;
   font-weight: 700;
   font-size: 11px;
   line-height: 309%;
@@ -111,6 +154,9 @@ body {
   padding-top: 17px;
   padding-bottom: 17px;
   padding-left: 25px;
+}
+.footer-form .footer-input:focus {
+  outline: none;
 }
 
 .header {
@@ -164,14 +210,15 @@ body {
 }
 
 .footer-nav {
+  position: absolute;
+  z-index: 1;
+  bottom: 310px;
   display: flex;
   align-items: baseline;
   padding-top: 68px;
   padding-left: 68px;
   margin-top: 68px;
   margin-left: 34px;
-  width: 1206px;
-  height: 272px;
   background-color: #3d3d3d;
 }
 .footer-nav .nav-box__img {
@@ -467,13 +514,12 @@ body {
 }
 
 .partners {
-  position: relative;
   width: -moz-max-content;
   width: max-content;
   margin: auto;
   background: #9a9999;
   padding-top: 68px;
-  padding-bottom: 71px;
+  padding-bottom: 137px;
 }
 .partners .partners-list {
   display: flex;

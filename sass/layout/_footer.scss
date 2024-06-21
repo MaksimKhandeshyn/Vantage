@@ -1,11 +1,37 @@
 .footer {
+  position: relative;
+  z-index: 3;
   width: max-content;
   margin: auto;
   padding-top: 66px;
   padding-bottom: 16px;
-  
   background: #141414;
-  .form {
-    background: #141414;
+  .footer-block {
+    display: flex;
+    .footer-list {
+      display: flex;
+      margin-left: 68px;
+      margin-right: 638px;
+      .footer__list-item:not(:last-child) {
+        margin-right: 36px;
+      }
+      .footer__list-link {
+        font-size: 11px;
+        line-height: 309%;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }
+    .footer-powered, .webflow {
+      font-size: 11px;
+      line-height: 309%;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.75);
+      .webflow {
+        color: #fff;
+      }
+    }
   }
 }
