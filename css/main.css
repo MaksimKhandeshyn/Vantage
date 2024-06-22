@@ -550,4 +550,15 @@ body {
 }
 .partners .partners-list .partners__list-item {
   margin-right: 114px;
+  position: relative;
+}
+.partners .partners-list .partners__list-item:not(:last-child)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 156px;
+  width: 9px;
+  height: 9px;
+  background: #99823D;
 }/*# sourceMappingURL=main.css.map */

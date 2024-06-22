@@ -302,13 +302,23 @@
   background: #9a9999;
   padding-top: 68px;
   padding-bottom: 137px;
-
   .partners-list {
     display: flex;
     padding-left: 136px;
     margin-bottom: 70px;
     .partners__list-item {
       margin-right: 114px;
+      position: relative;
+      &:not(:last-child)::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 40%;
+        left: 156px;
+        width: 9px;
+        height: 9px;
+        background: $main-color;
+      }
     }
   }
 }
