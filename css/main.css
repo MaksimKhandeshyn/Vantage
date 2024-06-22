@@ -376,6 +376,7 @@ body {
   display: flex;
 }
 .statistic .statistic-list .statistic__list-item {
+  position: relative;
   margin-right: 168px;
 }
 .statistic .statistic-list .statistic__list-item .statistic-info {
@@ -395,12 +396,33 @@ body {
   text-transform: uppercase;
   color: #99823D;
 }
+.statistic .statistic-list .statistic__list-item:not(:last-child)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 33px;
+  left: 180px;
+  width: 9px;
+  height: 9px;
+  background-color: #99823D;
+}
 
 .projects {
-  padding-bottom: 62px;
+  padding-bottom: 124px;
 }
 .projects .projects-list {
   display: flex;
+  position: relative;
+}
+.projects .projects-list::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -62px;
+  left: 630px;
+  width: 9px;
+  height: 9px;
+  background-color: #000;
 }
 .projects .projects-list .projects__list-item {
   position: relative;
@@ -524,6 +546,7 @@ body {
 .partners .partners-list {
   display: flex;
   padding-left: 136px;
+  margin-bottom: 70px;
 }
 .partners .partners-list .partners__list-item {
   margin-right: 114px;
