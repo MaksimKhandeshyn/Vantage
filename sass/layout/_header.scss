@@ -7,29 +7,31 @@
     display: flex;
     position: relative;
     .header-img {
-        position: absolute;
-        left: -5px;
-        background-color: $main-color;
-        padding: 43px 68px;
-        top: -17px;
-        z-index: 1;
+      position: absolute;
+      left: -5px;
+      background-color: $main-color;
+      padding: 43px 68px;
+      top: -17px;
+      z-index: 1;
     }
-    .header-text {
+    .header-text-box {
       display: flex;
       align-items: center;
+      .architecture {
+        line-height: 170%;
+        color: rgba(255, 255, 255, 0.75);
+        margin-right: 3px;
+        margin-left: 325px;
+        font-size: 9px;
+      }
+      .made-with {
+        line-height: 153%;
+        color: #fff;
+        font-size: 10px;
+      }
+      .header-icon {
+        margin-left: 5px;
+      }
     }
-    .architecture {
-      line-height: 170%;
-      color: rgba(255, 255, 255, 0.75);
-      margin-right: 3px;
-      margin-left: 325px;
-      font-size: 9px;
-    }
-    .made-with {
-      line-height: 153%;
-      color: #fff;
-      font-size: 10px;
-    }
-    
   }
 }
