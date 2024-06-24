@@ -18,16 +18,12 @@
       display: flex;
       align-items: center;
       .architecture {
-        line-height: 170%;
-        color: rgba(255, 255, 255, 0.75);
+        @include text(9px, 170%, rgba(255, 255, 255, 0.75));
         margin-right: 3px;
         margin-left: 325px;
-        font-size: 9px;
       }
       .made-with {
-        line-height: 153%;
-        color: #fff;
-        font-size: 10px;
+        @include text(10px, 153%, #fff);
       }
       .header-icon {
         margin-left: 5px;

@@ -1,0 +1,15 @@
+%text {
+  font-size: 11px;
+  line-height: 309%;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+%after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+}

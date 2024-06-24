@@ -1,27 +1,15 @@
 .footer-form {
-  position: relative;
+  @include index(relative, 2, $main-color);
   top: -66px;
-  z-index: 2;
-
-  background-color: $main-color;
-
   width: 1168px;
   height: 204px;
-
   padding: 68px 68px;
   margin: auto;
   .footer-input {
+    @include large-text(11px, 309%, #3d3d3d, 700, uppercase);
     width: 855px;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 309%;
     letter-spacing: 0.25em;
-
-    text-transform: uppercase;
-    color: #3d3d3d;
-
     border: none;
-
     padding-top: 17px;
     padding-bottom:  17px;
     padding-left: 25px;

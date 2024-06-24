@@ -1,0 +1,45 @@
+@mixin btn($width, $ls, $fz, $bg) {
+    width: $width;
+    letter-spacing: $ls;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-size: $fz;
+    background-color: $bg;
+}
+@mixin text($fz, $lh, $color) {
+    font-size: $fz;
+    line-height: $lh;
+    color: $color;
+}
+@mixin large-text($fz, $lh, $color, $fw, $tt) {
+    font-size: $fz;
+    line-height: $lh;
+    color: $color;
+    font-weight: $fw;
+    text-transform: $tt;
+}
+@mixin index($pos, $index, $bg) {
+    position: $pos;
+    z-index: $index;
+    background-color: $bg;
+}
+@mixin after($left, $background) {
+    left: $left;
+    background: $background;
+}
+@mixin position($top, $left, $padding, $height, $width) {
+    top: $top;
+    left: $left;
+    padding: $padding;
+    height: $height;
+    width: $width;
+}
+@mixin display ($width, $height) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $black-color;
+    width: $width;
+    height: $height;
+}

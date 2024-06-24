@@ -1,40 +1,22 @@
 .hero__list-btn {
-  width: 216px;
+  @include btn(216px, 0.25em, 12px, $main-color);
   height: 68px;
-  border: none;
-  font-size: 12px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
   text-align: center;
-  color: #fff;
-  background-color: $main-color;
 }
 .second-btn {
   background: $black-color;
   margin-left: 17px;
 }
 .services-btn {
-  width: 392px;
+  @include btn(392px, 0.25em, 12px, $main-color);
   padding: 25px 118px;
-  border: none;
-  background-color: $main-color;
-  color: #fff;
-  font-size: 12px;
   line-height: 149%;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
   margin-left: 460px;
   margin-top: 122px;
 }
 .footer-btn {
-  width: 155px;
+  @include btn(155px, 0.25em, 11px, #141414);
   height: 68px;
-  border: none;
-  background: #141414;
   font-weight: 700;
-  font-size: 11px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: #fff;
   margin-left: 17px;
 }

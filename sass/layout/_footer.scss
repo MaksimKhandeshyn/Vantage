@@ -1,11 +1,9 @@
 .footer {
-  position: relative;
-  z-index: 3;
+  @include index(relative, 3, #141414);
   width: max-content;
   margin: auto;
   padding-top: 66px;
   padding-bottom: 16px;
-  background: #141414;
   .footer-block {
     display: flex;
     .footer-list {
@@ -16,19 +14,15 @@
         margin-right: 36px;
       }
       .footer__list-link {
-        font-size: 11px;
-        line-height: 309%;
+        @include text(11px, 309%, #fff);
         letter-spacing: 0.25em;
         text-transform: uppercase;
-        color: #fff;
       }
     }
     .footer-powered, .webflow {
-      font-size: 11px;
-      line-height: 309%;
+      @include text(11px, 309%, rgba(255, 255, 255, 0.75));
       letter-spacing: 0.25em;
       text-transform: uppercase;
-      color: rgba(255, 255, 255, 0.75);
       .webflow {
         color: #fff;
       }
